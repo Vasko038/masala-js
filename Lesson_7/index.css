@@ -1,0 +1,105 @@
+body {
+  background-color: #1f1f2b;
+  color: white;
+  font-family: monospace;
+}
+#mainH1:hover {
+  color: yellow;
+}
+.card {
+  box-shadow: 0 3px 7px 1px rgb(29, 28, 28);
+  background-color: #303041;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+}
+.card:hover,
+.btnNext:hover {
+  color: rgb(223, 223, 133) !important;
+  cursor: pointer;
+}
+.card > div {
+  font-size: 15px;
+}
+.card .circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50% 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 2px 5px 1px rgb(43, 42, 42);
+}
+.returnHomeBtn {
+  background-color: #303041 !important;
+  margin-left: 13px;
+  color: white !important;
+  height: 40px;
+  width: 50px;
+}
+#answer {
+  background-color: #3a3a47;
+  padding: 15px;
+  border-radius: 10px;
+}
+.btnNext {
+  background-color: #303041 !important;
+  margin-left: 13px;
+  color: white !important;
+}
+#codeAnswer {
+  width: 100%;
+  background-color: #232332;
+  padding: 15px;
+  border: none;
+  box-shadow: 0 5px 5px 1px rgb(39, 37, 37);
+  min-height: 400px;
+  max-height: 460px;
+  outline: none;
+  color: white;
+  height: 100%;
+}
+#editor {
+  border-radius: 7px;
+  overflow: hidden;
+  width: 100%;
+  height: 400px;
+}
+.guttter {
+  background-color: rgb(21, 19, 19);
+  padding: 4px;
+  padding-block: 15px;
+}
+.guttter span {
+  padding-inline: 6px;
+  padding-bottom: 1px;
+}
+#result {
+  width: 100%;
+  background-color: #232332;
+  padding: 10px;
+  min-height: 200px;
+  margin-bottom: 15px;
+}
+#userBtn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50% 50%;
+  background-image: url("https://yastatic.net/naydex/yandex-search/I9YWT3I95/87ef7clJLu/OZmKd_z2GVMYLZoFVoXfOcCA0piWHwjFbLfTYMeA7NhYZKbMXXdRZJ5t210irME9gC4KOsqF61zhN3QZG96P6X_NyTu7vQAGTGeCUV6G2jvd3ZGJikUMmHb1j2-H3rSBX2bPo30FJArhW_N4CoSJZNouXSTXlK1l2A");
+}
+#loginContainer {
+  height: 100vh;
+}
+.loginCard {
+  background-color: white;
+  padding: 20px;
+  background-color: #303041;
+  border: 1px solid rgb(184, 128, 49);
+  border-radius: 5px;
+  width: 400px;
+}
+.accordion-button,
+#collapseTwo {
+  background-color: #1f1f2b;
+  color: white;
+}
